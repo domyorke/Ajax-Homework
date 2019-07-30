@@ -1,29 +1,35 @@
+/* Target the body of the html and change the font to size 18px, arial sans-serif. make the background white. */
 body {
     font: 18px arial, sans-serif;
     background: #eee;
   }
-  
+
+  /* Target the animals div, and give the entire div a width of 70%. */
   #animals {
     width: 70%;
   }
   
+  /* Target class animal-item and float it left, with a padding of 10 px*/
   .animal-item {
     float: left;
     padding: 10px;
   }
   
+  /* Target the form of the html, float it right, and apply a width of 30% with a padding of 20 px*/
   form {
     float: right;
     width: 30%;
     padding: 20px;
   }
   
+  /* Target the label section in the html and display the element as a block element so it is on it's own line. Give it a margin-bottom of 10 px. Set the font-weight to 700 to bold the text. */
   label {
     display: block;
     margin-bottom: 10px;
     font-weight: 700;
   }
   
+  /* Select input[type="text"] (the search bar) and increase the width to 100%, height to 30 px, margin-bottom to 10 px, and font size at 18 px. */
   input[type="text"] {
     width: 100%;
     height: 30px;
@@ -31,6 +37,7 @@ body {
     font-size: 18px;
   }
   
+  /* Select the buttons (the animal buttons and the submit) and add a padding of 5 px on top, and 20 px on the sides, margin or 10 px on the bottom and right, font size at 18 px, color (for the text) at white, cursor change to pointer, background color of teal, zero boarder, 5 px boarder radius, and a box shadow radius of 2 px on the top and right, 3 px on the bottom, and white on the left. */
   button,
   input[type="submit"] {
     padding: 5px 20px;
@@ -44,11 +51,13 @@ body {
     box-shadow: 2px 2px 3px #bbb;
   }
   
+  /* When hovering over a button, change the background color to grey*/
   button:hover,
   input[type="submit"]:hover {
     background: #334e4d;
   }
   
+  /* When a button is active, turn the background color to grey.*/
   button.active {
     background: #334e4d;
   }

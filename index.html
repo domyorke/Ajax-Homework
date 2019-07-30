@@ -1,37 +1,42 @@
-<!-- Write your comments here -->
-
+<!-- Doctype declaration as necessary for every HTML -->
 <!DOCTYPE html>
-
-<!-- Write your comments here -->
+<!-- Identiying the language of English for this Doctype-->
 <html lang="en">
-<!-- Write your comments here -->
+<!-- Head tag -->
 <head>
-<!-- Write your comments here -->
+<!-- Tag for specifying the charcter encoding for the HTML document -->
   <meta charset="UTF-8">
-<!-- Write your comments here -->
+<!-- Title tag. The text of Animaltastic will appear in the tab text -->
   <title>Animaltastic</title>
-  <!-- Write your comments here -->
+  <!-- Linking CSS to the document -->
   <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Close header tag -->
 </head>
-
+  <!-- Declare body tag -->
 <body>
-
+  <!-- Devlare a div with id "animal-buttons" -->
   <div id="animal-buttons">
-
+  <!-- closing the above div -->
   </div>
-
+  <!-- Declare form with id "animal-form" -->
   <form id="animal-form">
+<!-- A label that is the text for saying "Add an animal" -->
     <label for="animal-input">Add an animal</label>
+      <!-- A text input with id "animal-input" where user will be able to search the animal they choose to search -->
     <input type="text" id="animal-input"><br>
+      <!-- A submit input where the user will be able to submit in order to initiate the search of the animal -->
     <input id="add-animal" type="submit" value="Submit">
+      <!-- Close the form tag -->
   </form>
-
+  <!-- Open a new div called "animals" -->
   <div id="animals">
-
+  <!-- Closing the above div -->
   </div>
-
+  <!-- Adding jQuery CDN in a script tag -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Linking the external javascript file via script tag -->
   <script src="app.js"></script>
-  
+    <!--Close body tag-->
 </body>
+  <!-- Close html tag -->
 </html>
